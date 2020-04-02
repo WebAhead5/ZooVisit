@@ -70,6 +70,11 @@
         update(newState);
         clearBox('Animalinput');
       }
+      else {
+        alert('You havent enter an animal');
+    
+      }
+      
     });
 }
 

@@ -1,5 +1,5 @@
 var test = require('tape');
-var logic = require('./logic.js');
+var logic = require('/logic.js');
 arr1 = [{
   id: 0,
   description: 'smash avocados',
