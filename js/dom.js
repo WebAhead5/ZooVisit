@@ -21,7 +21,7 @@
 
     
 
-    // Delete Button 
+    // Link Delete Function with Button which has EventListener on click
 
     var deleteButtonNode = document.createElement('button');
     deleteButtonNode.innerText='delete'; 
@@ -32,7 +32,7 @@
     });
     todoNode.appendChild(deleteButtonNode);
 
-    //MarkFunction
+     // Link Mark Function with Checkbox which has EventListener on click
 
     var markTodo=document.createElement('INPUT');
     markTodo.setAttribute("type", "checkbox");
@@ -58,7 +58,7 @@
 }
 
 
-  // Add Function
+  // Link Add Function with EventListener on click on Add button
 
   // bind create todo form
   if (addTodoForm) {

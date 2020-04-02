@@ -15,13 +15,13 @@ var todoFunctions = {
     return incrementCounter;
   })(),
 
-  //cloneArrayOfObjects will create a copy of the todos array 
-  //changes to the new array don't affect the original
   cloneArrayOfObjects: function (todos) {
     return todos.map(function (todo) {
       return JSON.parse(JSON.stringify(todo));
     });
   },
+
+  //Add Function 
 
   addTodo: function (todos, newTodo) {
     var newarr2 = this.cloneArrayOfObjects(todos);
@@ -33,15 +33,11 @@ var todoFunctions = {
       return this.sortTodos(newarr);
     }
 return todos;
-    // should leave the input argument todos unchanged (you can use cloneArrayOfObjects)
-    // returns a new array, it should contain todos with the newTodo added to the end.
-    // add an id to the newTodo. You can use the generateId function to create an id.
-    // hint: array.concat
+
   },
+  // Delete Function
   deleteTodo: function (todos, idToDelete) {
-    // should leave the input argument todos unchanged (you can use cloneArrayOfObjects)
-    // return a new array, this should not contain any todo with an id of idToDelete
-    // hint: array.filter
+
 
     var newarr = this.cloneArrayOfObjects(todos);
     newarr = newarr.filter(function (obj) {
@@ -49,7 +45,7 @@ return todos;
     });
     return newarr
   },
-
+// Mark (Check) Function
   markTodo: function (todos, idToMark) {
     var newarr = this.cloneArrayOfObjects(todos);
     newarr = newarr.map((obj) => {
@@ -64,18 +60,12 @@ return todos;
     return newarr;
 
   },
-  // should leave the input argument todos unchanged (you can use cloneArrayOfObjects)
-  // in the new todo array, all elements will remain unchanged except the one with id: idToMark
-  // this element will have its done value toggled
-  // hint: array.map
+
   sortTodos: function (todos, sortFunction) {
     var newarr = this.cloneArrayOfObjects(todos)
     newarr = newarr.sort(sortFunction);
     return newarr;
-    // stretch goal! Do this last
-    // should leave the input arguement todos unchanged (you can use cloneArrayOfObjects)
-    // sortFunction will have same signature as the sort function in array.sort
-    // hint: array.slice, array.sort
+
   },
 };
 function checkdup(todos, newstr) {
@@ -88,12 +78,6 @@ function checkdup(todos, newstr) {
 
 
 }
-//todos.description.toUpperCase
-//if(todos.includes(newstr))
-// {
-//  return true;
-//}
-//  return false;
 
 
 function sortFunction(a, b) { return (a.description < b.description); }
