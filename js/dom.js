@@ -45,8 +45,8 @@
       
     var newState = todoFunctions.markTodo(state, todo.id);
     
-    update(newState);
     console.log(newState);
+    update(newState);
 
  });
   todoNode.appendChild(markTodo);
