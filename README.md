@@ -2,7 +2,7 @@
 
 # ZooVisit
 
-**Don't want miss the opportunity to visit our Zoo where we'll provide us with a list of your favourite animals** :rabbit: :eagle: 
+**Don't want miss the opportunity to visit our Zoo where we'll provide you with a list of your favourite animals** :rabbit: :eagle: 
 <!--  -->
  Check our [Website](https://webahead5.github.io/ZooVisit/)
 ---
