@@ -1,6 +1,8 @@
+
+
 # ZooVisit
 
-**Don't want miss the opportunity to visit our Zoo where we'll provide us with a list of your favourite animals** :rabbit: :eagle:
+**Don't want miss the opportunity to visit our Zoo where we'll provide us with a list of your favourite animals** :rabbit: :lion_face: :eagle: :giraffe_face: 
 <!--  -->
  Check our [Website](https://webahead5.github.io/ZooVisit/)
 ---
@@ -20,6 +22,9 @@ The website is built in a way that gives the user an easy way to set a list in w
     - Result : Animal name will be added to the list
     down with a delete button and a checkbox
 ```
+
+
+![](https://i.imgur.com/2wWKmCI.jpg)
 
 
 ## Project Goals
