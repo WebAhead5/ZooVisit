@@ -1,6 +1,6 @@
 # ZooVisit
 
-**Don't want miss the opportunity to visit our Zoo where we'll provide us with a list of your favourite animals** :rabbit: :lion_face: :eagle: :giraffe_face: 
+**Don't want miss the opportunity to visit our Zoo where we'll provide us with a list of your favourite animals** :rabbit: :eagle:
 <!--  -->
  Check our [Website](https://webahead5.github.io/ZooVisit/)
 ---
